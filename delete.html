@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+	<head>
+        <title>SIS Delete Student</title>
+	</head>
+	<center>
+    <!-- css styling block -->
+	<style type="text/css">
+	h1,h3
+	{
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		color: Black;
+		text-align: center;
+	}
+	table
+	{
+		font-family: Calibri;
+		color: black;
+		font-size: 15pt;
+		font-style: normal;
+		background-color: #eff3f6;
+		border: 2px solid black
+	}
+	table.inner{border: 0px}
+	
+	</style>
+	<body bgcolor="#f4d6a0">
+	<h1>Student Delete Form</h1>
+	
+    <!-- student delete form -->
+	<form action = "form4.php" method = "POST">
+	<table align = "center" cellpadding = "10">
+	
+    <!--row to enter uid -->
+	<tr>
+	<h3>Enter the student's University ID to remove student from SIS</h3>
+	<td>University ID</td>
+	<td><input type="text" name="uid" maxlength="10"/></td>
+	</tr>
+	
+    <!-- button to submit the form -->
+	<tr>
+	<td colspan="2" align="center">
+	<input type="submit" value="Delete" tabindex="4">
+	</td>
+	</tr>
+	
+	</table>
+	</form>
+	<br/>
+	<br/>
+    
+    <!-- link to go to homepage -->
+	<a href='homepage.html'>Go back to homepage</a>
+	</body>
+	</center>	
+</html>

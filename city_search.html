@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>SIS Search Student</title
+	</head>
+	<center>
+    <!-- css styling block -->
+	<style type="text/css">
+	h1,h3
+	{
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		color: Black;
+		text-align: center;
+	}
+	table
+	{
+		font-family: Calibri;
+		color: black;
+		font-size: 13pt;
+		font-style: normal;
+		background-color: #eff3f6;
+		border: 2px solid black
+	}
+	table.inner{border: 0px}
+	
+	</style>
+	<body bgcolor="#f4d6a0">
+	<h1>Student Search Form (City-wise)</h1>
+	
+    <!-- city search form -->
+	<form action = "city.php" method = "POST">
+	
+	<table align = "center" cellpadding = "10">
+	
+	<tr><h3>Find all the students from a city</h3></tr>
+	
+    <!-- row to enter city name -->
+	<tr>
+	<td>Enter city name:</td>
+	<td><input type="text" name="city" maxlength="30"/></td>
+	<td colspan="2" align="center">
+	<input type="submit" value="Go" tabindex="4">
+	</td>
+	</tr>
+	
+	</table>
+	</form>
+
+	<br/>
+	<br/>
+	<br/>
+        
+    <!-- link to go back to prev page and homepage  -->
+	<a href='search.html'>Search another student</a>
+	<br/>
+	
+	<a href='homepage.html'>Go back to homepage</a>
+	</body>
+	</center>
+</html>	

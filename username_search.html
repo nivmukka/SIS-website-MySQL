@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+        <title>SIS Search Student</title>
+	</head>
+	<center>
+	<body bgcolor="#f4d6a0">
+	<style type ="text/css">
+	h1,h3
+	{
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		color: Black;
+		text-align: center;
+	}
+	table
+	{
+		font-family: Calibri;
+		color: black;
+		font-size: 15pt;
+		font-style: normal;
+		background-color: #eff3f6;
+		border: 2px solid black
+	}
+	table.inner{border: 0px}
+	</style>
+	<h1>Student Search (by username)</h1>
+	
+	<form action = "username.php" method = "POST">
+	
+	<table align = "center" cellpadding = "10">
+	
+	<tr><h3>Find student with username</h3></tr>
+	
+	<tr>
+	<td><h3>Username</h3></td>
+	<td>Enter:</td>
+	<td><input type="text" name="username" maxlength="20"/></td>
+	<td colspan="2" align="right">
+	<input type="submit" value="Go" tabindex="4">
+	</td>
+	</tr>
+	
+	</table>
+	</form>
+
+	<br/>
+	<br/>
+	<a href='search.html'>Search another student</a>
+	<br/>
+	<a href='homepage.html'>Go back to homepage</a>
+	</body>
+	</center>
+</html>

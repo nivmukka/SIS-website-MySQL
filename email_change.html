@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+        <title>SIS Update Student</title>
+	</head>
+	<center>
+    <!-- css styling block -->
+	<style type="text/css">
+	h1,h3
+	{
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		color: Black;
+		text-align: center;
+	}
+	table
+	{
+		font-family: Calibri;
+		color: black;
+		font-size: 13pt;
+		font-style: normal;
+		background-color: #eff3f6;
+		border: 2px solid black
+	}
+	table.inner{border: 0px}
+	
+	</style>
+	<body bgcolor="#f4d6a0">
+	<h1>SIS Update Student Email Address </h1>
+
+    <!-- form to update email-->
+	<form action="change_email.php" method="POST">
+	<table align = "center" cellpadding = "10">
+	
+    <!-- row to re enter uid -->
+	<tr>
+	<td>Re-enter University ID: </td>
+	<td><input type = "text" name = "uid" maxlength = "10"/></td>
+	</tr>
+	
+    <!-- row to enter new email address -->
+	<tr>
+	<td>New Email Address: </td>
+	<td><input type="text" name="email_id" maxlength = "100"/></td>
+	</tr>
+	
+    <!-- button to submit the form -->
+	<tr>
+	<td colspan = "2" align = "center">
+	<input type = "submit" value = "Update" tabindex = "4">
+	</tr>
+	</table>
+	</form>
+	<br/>
+	<br/>
+    
+    <!-- button to cancel the form and go back to prev page -->
+	<button onclick="window.location.href='update.html'">Cancel</button>
+	
+	</body>
+	</center>
+</html>
